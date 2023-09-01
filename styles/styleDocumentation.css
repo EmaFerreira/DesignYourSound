@@ -1,0 +1,25 @@
+.list-group-item {
+    background-color:#01161E ;
+    border-color: #542b2b;
+}
+
+#convertInfo{
+    color:  #598392;
+    font-size: x-small;
+    margin-top: 4px;
+}
+
+#resetInfo{
+    font-size: small;
+}
+
+a {
+    color:  #EFF6E0;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color:  #ca5d5d;
+    text-decoration: none !important;
+    transition: 40ms;
+}

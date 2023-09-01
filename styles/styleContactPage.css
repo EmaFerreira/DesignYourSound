@@ -1,0 +1,29 @@
+#main{
+        margin-top: 250px;
+
+}
+
+.list-inline {
+    margin-top: 150px;
+}
+
+#main a {
+    color: #598392;
+
+}
+
+#main a:hover {
+    color: #ca5d5d;
+    transition: 40ms;
+}
+
+.bi {
+    width: 50px;
+    height: 50px;   
+}
+
+p {
+    font-size: small;
+    margin-top: 40pt;
+    color: #598392;
+}

@@ -1,0 +1,18 @@
+.popover {
+  background-color: #EFF6E0;
+  border-color: #AEC3B0;
+  border-width: 0.15em;
+  box-shadow: 2px 2px 5px #AEC3B0;
+}
+
+.popover-body,
+.popover-header {
+  font-family: 'IBM Plex Mono', 'Fira Cide', 'Roboto', monospace;
+  color: #01161E;
+  font-size: xx-small;
+}
+
+.popover .arrow:after {
+  border-right-color: #EFF6E0;
+  border-left-color: #EFF6E0;
+}

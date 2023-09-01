@@ -1,0 +1,33 @@
+a {
+    color:  #EFF6E0;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color:  #ca5d5d;
+    text-decoration: none !important;
+    transition: 40ms;
+}
+
+h1 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+#copyrights {
+color: #598392;
+margin-top: 80px;
+margin-bottom: 50px;
+
+font-size: small;
+line-height: 10pt;
+}
+
+#copyrights p {
+    margin: 0px;
+    padding: 2px;
+}

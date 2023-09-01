@@ -1,0 +1,103 @@
+body {
+    background-color: #01161E;
+    font-family: 'IBM Plex Mono', 'Fira Cide', 'Roboto', monospace;
+    font-weight: 400;
+    color: #AEC3B0;
+}
+
+h1,
+h2 {
+    color: #AEC3B0;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+hr {
+    background-color: #598392;
+    width: 50%;
+}
+
+#soundInput button {
+    color: #AEC3B0;
+    padding: 5px;
+}
+
+#recording button {
+    color: #AEC3B0;
+}
+
+#soundInput button:focus,
+#stopRecBtn:focus {
+    color: #EFF6E0;
+    border-color: #598392;
+    border-width: 0.15em;
+    box-shadow: 2px 2px 5px #598392;
+    transition: 0.25s;
+}
+
+#recBtn:focus {
+    color: #ca5d5d;
+    border-color: #542b2b;
+    box-shadow: 2px 2px 5px #542b2b;
+}
+
+#mediaBtns {
+    margin: 0;
+}
+
+#searchQ {
+    padding: 5px;
+    color: #AEC3B0;
+    background-color: #01161e00;
+    border-width: 0em;
+    box-shadow: 0px 0px 0px #59839200;
+}
+
+#searchQ:focus {
+    color: #598392;
+    border-color: #598392;
+    border-width: 0.15em;
+    box-shadow: 2px 2px 5px #598392;
+    transition: 0.15s;
+}
+
+#searchQ::-webkit-search-cancel-button {
+    /* para não se ver a x que vem por defeito */
+    -webkit-appearance: none;
+}
+
+#mainNavbar .nav-link {
+    color: #598392;
+    font-weight: 600;
+}
+
+#mainNavbar .navbar-brand {
+    color: #598392;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EFF6E0;
+    transition: 0.25s;
+}
+
+#mainNavbar .active {
+    color: #AEC3B0;
+    transition: 0.25s;
+}
+
+#envParams,
+#filters {
+    border: 1px solid #598392;
+}
+
+#rhythm .form-check-input {
+    scale: 2;
+}
+
+#recording {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
